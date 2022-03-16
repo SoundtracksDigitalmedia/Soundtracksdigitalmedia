@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8"/>
+<title>Stay Sound! </title>
+<link href="Assignemnt1.css" rel="stylesheet"/>	
+	
+ <div id=div2> <img id="logo" src="soundtracks.gif" alt="soundtracks"> soundtracks	</div> 
+  
+ 
+
+</head>
+<body>
+<div id=div5> 
+<h1> Shopping cart </h1>
+
+
+
+</div>
+
+
+
+</body>	
+</html>
