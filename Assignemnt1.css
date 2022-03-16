@@ -39,30 +39,6 @@ margin-left: auto;
 margin-right: auto;
 	color: black;
 }
-#myHeader1 {
-background-color:white ; 
-text-align: center;
-width: 100px; 
-padding: 10px;
-border-radius: 35px 35px 35px 35px;
-margin-left: auto;
-margin-right: auto;
-	color: black;
-}
-
-#myHeader2 {
-background-color:white ; 
-text-align: center;
-width: 100px; 
-padding: 10px;
-	border: solid;
-border-color: black;
-border-radius: 35px 35px 35px 35px;
-margin-left: auto;
-margin-right: auto;
-	color: black;
-}
-
 
 
 
