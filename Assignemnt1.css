@@ -63,6 +63,18 @@ margin-top: 100px;
 	color: black;
 }
 
+#myHeader2 {
+background-color:white ; 
+text-align: center;
+width: 100px; 
+padding: 10px;
+	border: solid;
+border-color: black;
+border-radius: 35px 35px 35px 35px;
+margin-right: 100px;
+
+	color: black;
+}
 
 
 
