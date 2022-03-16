@@ -5,9 +5,9 @@ body {
 #div1{
 background-color: #72369D;
 color: white;
- width: 200px;
-  height: 600px;
-  margin-left: auto;
+width: 200px;
+height: 600px;
+margin-left: auto;
 margin-right: auto; 
 text-align: center; 
 
@@ -19,7 +19,7 @@ background-color: #72369D;
  text-align: center;
  font-size: 100px;
  color: white;
- margin-right: 300px;
+ margin-left: 200px ;
 } 
 #div3 {
 background-color: black;
