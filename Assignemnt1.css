@@ -51,7 +51,7 @@ margin-right: auto;
 }
 
 td, th {
-  border: 1px solid #dddddd;
+  border: 5px solid black;
   text-align: left;
   padding: 8px;
 }
