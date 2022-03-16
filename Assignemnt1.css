@@ -60,8 +60,14 @@ table {
 margin-right: auto;
 }
 
-td, th {
+th {
   border: 5px solid black;
   text-align: left;
   padding: 8px;
+}
+td {
+  border: 5px solid black;
+  text-align: left;
+  padding: 8px;
+  height: 20px;
 }
