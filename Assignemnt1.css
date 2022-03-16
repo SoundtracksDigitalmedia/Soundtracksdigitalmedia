@@ -29,15 +29,14 @@ border-color: white;
 	
 }
 #myHeader {
-	background-color:white ; 
-	 text-align: center;
-	width: 100px; 
-	padding: 10px;
-	
-	border-radius: 35px 35px 35px 35px;
-    margin-left: auto;
-    margin-right: auto;
-	margin-top: auto;
+background-color:white ; 
+text-align: center;
+width: 100px; 
+padding: 10px;
+border-radius: 35px 35px 35px 35px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 200px;
 	color: black;
 }
 
