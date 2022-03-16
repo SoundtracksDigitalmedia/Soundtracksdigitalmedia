@@ -6,8 +6,10 @@ body {
 background-color: #72369D;
 color: white;
  width: 200px;
-  height: 900px;
-  float: left;
+  height: 600px;
+  margin-left: auto;
+margin-right: auto; 
+text-align: center; 
 
 }
 
