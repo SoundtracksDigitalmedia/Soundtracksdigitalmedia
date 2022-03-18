@@ -8,9 +8,10 @@ border: solid;
 border-color: white; 
 color: white;
 border-radius: 30px 30px 30px 30px;
-width: 200px;
-length: 200px;	
-	
+width: 400px;
+length: 400px;	
+margin-left: auto;
+margin-right: auto;	
 }
 #logo2 {
 width: 150px;
