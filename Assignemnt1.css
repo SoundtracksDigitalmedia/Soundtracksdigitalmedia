@@ -24,23 +24,15 @@ h2 {
  margin-left: auto;
 margin-right: auto; 
 }
-table {
-  font-family: arial, sans-serif;
-  border-collapse: collapse;
-  width: 600px;
-  text-align: center; 
-  margin-left: auto;
-margin-right: auto;
+
+#qtyBox{
+	margin-bottom: 10px;
 }
 
-th {
-  border: 5px solid White;
-  text-align: left;
-  padding: 8px;
+#qty{
+	width: 15%;
 }
-td {
-  border: 5px solid White;
-  text-align: left;
-  padding: 8px;
-  height: 20px;
+
+.top-space{
+	margin-top: 10px;
 }
