@@ -1,17 +1,7 @@
 body {
 background-color:#72369D !important;
 }
-#div3 {
-background-color: black; 
-border: solid;
-border-color: white; 
-color: white;
-border-radius: 30px 30px 30px 30px;
-width: 400px;
-length: 400px;	
-margin-left: auto;
-margin-right: auto;	
-}
+
 #logo2 {
 width: 150px;
 height: 150px;
@@ -42,12 +32,12 @@ margin-right: auto;
 }
 
 th {
-  border: 5px solid black;
+  border: 5px solid White;
   text-align: left;
   padding: 8px;
 }
 td {
-  border: 5px solid black;
+  border: 5px solid White;
   text-align: left;
   padding: 8px;
   height: 20px;
