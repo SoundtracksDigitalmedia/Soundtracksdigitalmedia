@@ -9,8 +9,21 @@ border: solid;
 border-color: white;
 margin-right: 100px ;
 }
-
+#p1{
+margin-left: auto;
+margin-right: auto;
+}
 #logo {
+width: 200px;
+height: 200px;
+border: solid;
+border-color: white;
+display: block;
+margin-left: auto;
+margin-right: auto;
+
+}
+#logo8 {
 width: 200px;
 height: 200px;
 border: solid;
