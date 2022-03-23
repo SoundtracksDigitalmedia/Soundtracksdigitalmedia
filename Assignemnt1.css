@@ -54,4 +54,16 @@ margin-right: auto;
 	margin-top: 10px;
 }
 
+.products{
+	border: 2px dotted black;
+	width: 40%;
+	float: left;
+	margin: 20px;
+	text-align: center;
+}
+
+#main{
+	width: 700px;
+	float: left;
+}
 
