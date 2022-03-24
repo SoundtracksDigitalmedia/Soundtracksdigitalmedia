@@ -26,9 +26,14 @@ height: 100px;
 #hero h4{
 	padding-bottom: 15px;
 }
-
 #product1{
 	text-align: center;
+}
+
+#product1 .pro-container{
+	display: flex;
+	justify-content: space-between;
+	padding-top: 20px;
 }
 
 #product1 .pro{
@@ -39,14 +44,13 @@ height: 100px;
 	border-radius: 25px;
 	cursor: pointer;
 	margin: 15px 0;
-	
+
 }
 
 #product1 .pro img{
 	width: 100%;
 	border-radius: 20px;
 }
-
 
 #product1 .pro .des{
 	text-align: start;
@@ -75,8 +79,6 @@ height: 100px;
 	font-weight: 700;
 	color: #1a1a1a;
 }
-
-
 
 
 
@@ -116,6 +118,8 @@ h2 {
 margin-right: auto; 
 }
 
+
+/* Shopping cart */
 #qtyBox{
 	margin-bottom: 10px;
 }
