@@ -26,6 +26,7 @@ height: 100px;
 #hero h4{
 	padding-bottom: 15px;
 }
+
 #product1{
 	text-align: center;
 }
@@ -82,6 +83,8 @@ height: 100px;
 
 
 
+/* Logo */
+
 #logo2 {
 width: 150px;
 height: 150px;
@@ -118,8 +121,7 @@ h2 {
 margin-right: auto; 
 }
 
-
-/* Shopping cart */
+/* Shopping Cart */
 #qtyBox{
 	margin-bottom: 10px;
 }
@@ -131,8 +133,5 @@ margin-right: auto;
 .top-space{
 	margin-top: 10px;
 }
-
-
-
 
 
