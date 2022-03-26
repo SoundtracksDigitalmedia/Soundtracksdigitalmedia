@@ -2,13 +2,13 @@ body {
 background-color:#72369D !important;
 }
 #pic1 {
-width: 25%;
-height: 25%;	
+width: 100px;
+height: 100px;	
 	
 }
 #paymethod1 {
-width: 100px  !important; 
-height: 100px  !important; 	
+width: 25%  !important; 
+height: 25%  !important; 	
 }
 /* Home page */
 #hero{
