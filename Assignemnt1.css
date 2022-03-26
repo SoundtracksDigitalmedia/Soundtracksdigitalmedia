@@ -81,6 +81,19 @@ height: 100px;
 	color: #1a1a1a;
 }
 
+/* services section css */
+.servicesText.card {
+    height: 350px;
+    cursor: pointer;
+  }
+
+.card-title {
+    text-align: center;
+}
+
+.servicesText:hover {
+    border: 1px solid #032503;
+}
 
 
 /* Logo */
