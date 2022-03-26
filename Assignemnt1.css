@@ -12,8 +12,8 @@ height: 25%  !important;
 }
 /* Home page */
 #hero{
-	background-image: url(img/header.png);
-	min-height: 100vh;
+	background-image: url(img/header.jpg);
+	min-height: 150vh;
 	width: 100%;
 	background-size: cover;
 	background-repeat: no-repeat;
