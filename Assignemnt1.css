@@ -6,7 +6,10 @@ width: 100px;
 height: 100px;	
 	
 }
-
+#paymethod1 {
+width: 100px  !important; 
+height: 100px  !important; 	
+}
 /* Home page */
 #hero{
 	background-image: url(img/header.png);
