@@ -65,6 +65,13 @@ h1, h2, h3, h4, h5, h6 {
 	padding-top: 3.5em;
 }
 
+#update-cart {
+color: white;	
+}
+empty-cart{
+color: white;
+}
+
 #products ul {
 	margin: 1.5em 0;
 	padding: 0;
