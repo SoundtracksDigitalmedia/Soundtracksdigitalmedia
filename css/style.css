@@ -215,6 +215,7 @@ body#checkout-page #site-info {
 #shopping-cart-actions li {
 	display: inline-block;
 	margin-right: 1em;
+	color: white;
 }
 
 #pricing {
