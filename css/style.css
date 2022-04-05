@@ -13,8 +13,6 @@ html, body {
 
 body {
 	font: 100%/1 'PT Serif', serif;
-	background: #fff;
-	border-top: 0.5em solid #cc8500;	
 }
 
 :active, :focus {
