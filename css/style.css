@@ -236,9 +236,10 @@ body#checkout-page #site-info {
 }
 
 #pricing {
+		background: black;
+
 	padding: 0.5em;
 	margin: 1em 0;
-	background: #fafafa;
 }
 
 #sub-total, #shipping {
