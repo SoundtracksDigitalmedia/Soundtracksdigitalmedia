@@ -294,7 +294,7 @@ body#checkout-page #site-info {
 #user-details-content {
 	margin: 1.5em 0;
 	padding: 1em;
-	border: 1px solid #ddd;
+	border: 1px solid#ddd;
 	border-radius: 6px;
 	overflow: hidden;
 }
@@ -324,7 +324,6 @@ body#checkout-page #site-info {
 	display: block;
 	margin-bottom: 0.5em;
 	padding-bottom: 0.3em;
-	border-bottom: 1px solid #ddd;
 }
 
 #paypal-form {
