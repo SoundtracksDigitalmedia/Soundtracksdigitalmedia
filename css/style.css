@@ -267,7 +267,6 @@ body#checkout-page #site-info {
 #checkout-order-form input[type="text"] {
 	width: 200px;
 	display: block;
-	background: #fff;
 	border: 1px solid #ddd;
 	border-radius: 4px;
 	padding: 0.3em;
@@ -281,7 +280,6 @@ body#checkout-page #site-info {
 .message {
 	display: block;
 	margin: 0.5em 0;
-	color: red;
 }
 
 #user-details {
