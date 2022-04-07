@@ -6,13 +6,24 @@ html {
 	box-sizing: border-box;
  }
 #empty-cart{
-background: black;
-	color:white;
+display: inline-block;
+	background: black;
+	color: #fff;
+	font: 1em 'PT Serif', serif;
+	padding: 0.3em 1em;
+	text-align: center;
+	border-radius: 4px;
+	border: 1px solid white;
 }
 #update-cart{
-background: black;
-		color:white;
-
+display: inline-block;
+	background: black;
+	color: #fff;
+	font: 1em 'PT Serif', serif;
+	padding: 0.3em 1em;
+	text-align: center;
+	border-radius: 4px;
+	border: 1px solid white;
 }
 body {
 background-color:#72369D !important;
