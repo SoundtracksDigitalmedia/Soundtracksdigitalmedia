@@ -5,7 +5,12 @@
 html {
 	box-sizing: border-box;
  }
-
+empty-cart{
+background: black;
+}
+update-cart{
+background: black;
+}
 body {
 background-color:#72369D !important;
 }
