@@ -541,7 +541,7 @@ form input.qty {
 
 .btn, a.btn {
 	display: inline-block;
-	background: grey;
+	background: black;
 	color: #fff;
 	font: 1em 'PT Serif', serif;
 	padding: 0.3em 1em;
