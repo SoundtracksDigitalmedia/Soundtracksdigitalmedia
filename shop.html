@@ -1,0 +1,272 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<title>Pets n Go</title>
+		<meta charset="utf-8" />
+		<!-- Required meta tag for Bootstrap -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<!-- Bootstrap CSS -->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+		<link rel="stylesheet" href="style.css" media="screen" type="text/css" />
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+		<script type="text/javascript" src="js/jquery.shop.js"></script>
+	</head>
+	<body>
+		<body>
+
+			
+    <!--Navbar for webpage-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"></a>
+          <div id=div2> <img id="logo2" src="soundtracks.gif" alt="soundtracks" length="150" width="150"></div> 
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+		  <li class="nav-item">
+                <a class="nav-link" href="about.html">About Us</a>
+		  </li> 
+		  <li class="nav-item">
+                <a class="nav-link" href="shop.html">Products</a>
+		  </li>  
+              <li class="nav-item">
+                <a class="nav-link" href="cart.html">Shopping cart</a>
+              </li>
+		  <li class="nav-item">
+				<a class="nav-link" href="videos.html">Videos</a>
+		      </li>
+                          <li class="nav-item">
+                <a class="nav-link" href="Contact.html">Contact us</a>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+	  <div id="site">
+		<header id="masthead">
+			<h1>Soundtracks <span class="tagline">Your number one source for all things headphone related.</h1>
+		</header>
+	   <!--Tab bar -->
+	   <section class="page-section">
+		<div class="container">
+			<div class="row">
+
+				<div class="col-lg-3 blog-form bg-light">
+					<h2 class="blog-sidebar-title"><b>Cart</b></h2>
+					<hr />
+					<p class="blog-sidebar-text">No products in the cart...</p>
+					<div>&nbsp;</div>
+					<div>&nbsp;</div>
+
+					<h2 class="blog-sidebar-title"><b>Categories</b></h2>
+					<hr />
+
+					<p class="blog-sidebar-list"><b><span class="list-icon"> > </span> Microphones</b></p>
+					<p class="blog-sidebar-list"><b><span class="list-icon"> > </span> Headphones </b></p>
+					<p class="blog-sidebar-list"><b><span class="list-icon"> > </span> Airpods </b></p>
+					<p class="blog-sidebar-list"><b><span class="list-icon"> > </span> Headsets</b></p>
+					<p class="blog-sidebar-list"><b><span class="list-icon"> > </span> Miscellaneous </b></p>
+
+					<div>&nbsp;</div>
+					<div>&nbsp;</div>
+
+					<h2 class="blog-sidebar-title"><b>Filter</b></h2>
+					<hr />
+
+					<div class="input-group mb-3">
+						<input type="text" class="form-control" placeholder="Search" aria-label="Receipient's username" aria-describely="basic-addon2">
+						<div class="input-group-append">
+							<span class="input-group-text" id="basic-addon2"><i class="fa fa-search"></i></span>
+						</div>
+						
+					</div>
+
+					<p class="tags">Price €35 - €150</p>
+					<button type="button" class="btn btn-dark btn-lg">Filter</button>
+
+					<div>&nbsp;</div>
+					<div>&nbsp;</div>
+					<h2 class="blog-sidebar-title"><b>Tags</b></h2>
+					<p class="product-sidebar-list"><b>#headphones, #music</b></p>
+					<p class="product-sidebar-list"><b>#microphone, #voice, #sound</b></p>
+					<p class="product-sidebar-list"><b>#headsets, #recording</b></p>
+
+
+				</div>
+			
+				<!--END  <div class="col-lg-3 blog-form">-->
+
+    <br><br>
+    <!--Sorting by -->
+    <div class="col-lg-9" style="padding-left: 30px;">
+        <div class="row">
+            <div class="col">
+                Showing all 6 results
+            </div>
+
+            <div class="col">
+                <select class="form-control">
+                    <option value="">Default Sorting</option>
+                    <option value="popularity">Sorting by popularity</option>
+                    <option value="average">Sorting by average</option>
+                    <option value="latest">Sorting by latest</option>
+                    <option value="low">Sorting by low</option>
+                    <option value="high">Sorting by high</option>
+                </select>
+            </div>
+
+        </div>
+        <!-- Sorting by <div class="row"> -->
+        <div>&nbsp;</div>
+        <div>&nbsp;</div>
+<br>
+
+				<div id="content">
+					<div id="products">
+						<ul>
+							<li>
+								<div class="product-image">
+									<img src="img/airpod.png" class="img-thumbnail" alt="airpod"/>
+								</div>
+								<div class="product-description" data-name="Airpods" data-price="149">
+									<h3 class="product-name">Airpods</h3>
+									<p class="product-price">&euro; 149</p>
+									<form class="add-to-cart" action="cart.html" method="get">
+										<div>
+											<label for="qty-1">Quantity</label>
+											<input type="text" name="qty-1" id="qty-1" class="qty" value="1" />
+										</div>
+										<p><input type="submit" value="Add to cart" class="btn" /></p>
+									</form>
+								</div>
+								<div class="text-center">
+									<a href="productdetails.html" class="btn btn-secondary button-text"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Learn more</a>
+								</div>
+							</li>
+
+							<li>
+								<div class="product-image">
+									<img src="img/headphone.png" class="img-thumbnail" alt="headphone"/>
+								</div>
+								<div class="product-description" data-name="Boombotix Headphone" data-price="35">
+									<h3 class="product-name">Boombotix</h3>
+									<p class="product-price">&euro; 35</p>
+									<form class="add-to-cart" action="cart.html" method="get">
+										<div>
+											<label for="qty-2">Quantity</label>
+											<input type="text" name="qty-2" id="qty-2" class="qty" value="1" />
+										</div>
+										<p><input type="submit" value="Add to cart" class="btn" /></p>
+									</form>
+								</div>
+								<div class="text-center">
+									<a href="details.html" class="btn btn-secondary button-text"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Learn more</a>
+								</div>
+							</li>
+	
+							<li>
+								<div class="product-image">
+									<img src="img/microphone.png" class="img-thumbnail" alt="microphone"/>
+								</div>
+								<div class="product-description" data-name="Microphone" data-price="72">
+									<h3 class="product-name">Microphones</h3>
+									<p class="product-price">&euro; 72</p>
+									<form class="add-to-cart" action="cart.html" method="get">
+										<div>
+											<label for="qty-3">Quantity</label>
+											<input type="text" name="qty-3" id="qty-3" class="qty" value="1" />
+										</div>
+										<p><input type="submit" value="Add to cart" class="btn" /></p>
+									</form>
+								</div>
+								<div class="text-center">
+									<a href="microphone.html" class="btn btn-secondary button-text"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Learn more</a>
+								</div>
+							</li>
+						</ul>
+					</div>
+
+					<div id="products">
+						<ul>
+							<li>
+								<div class="product-image">
+									<img src="img/speaker.png" class="img-thumbnail" alt="speaker"/>
+								</div>
+								<div class="product-description" data-name="Speakers" data-price="104">
+									<h3 class="product-name">Speakers</h3>
+									<p class="product-price">&euro; 104</p>
+									<form class="add-to-cart" action="cart.html" method="get">
+										<div>
+											<label for="qty-1">Quantity</label>
+											<input type="text" name="qty-1" id="qty-1" class="qty" value="1" />
+										</div>
+										<p><input type="submit" value="Add to cart" class="btn" /></p>
+									</form>
+								</div>
+								<div class="text-center">
+									<a href="speaker.html" class="btn btn-secondary button-text"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Learn more</a>
+								</div>
+							</li>
+
+							<li>
+								<div class="product-image">
+									<img src="img/h1.jpg" class="img-thumbnail" alt="Headphone">
+								</div>
+								<div class="product-description" data-name="S-Audio Headphones" data-price="45">
+									<h3 class="product-name">S-Audio Headphones</h3>
+									<p class="product-price">&euro; 55</p>
+									<form class="add-to-cart" action="cart.html" method="get">
+										<div>
+											<label for="qty-2">Quantity</label>
+											<input type="text" name="qty-2" id="qty-2" class="qty" value="1" />
+										</div>
+										<p><input type="submit" value="Add to cart" class="btn" /></p>
+									</form>
+								</div>
+								<div class="text-center">
+									<a href="headphone.html" class="btn btn-secondary button-text"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Learn more</a>
+								</div>
+							</li>
+	
+							<li>
+								<div class="product-image">
+									<img src="img/h4.jpg" class="img-thumbnail" alt="Headphone">
+								</div>
+								<div class="product-description" data-name="Trebbo" data-price="35">
+									<h3 class="product-name">Trebbo</h3>
+									<p class="product-price">&euro; 35</p>
+									<form class="add-to-cart" action="cart.html" method="get">
+										<div>
+											<label for="qty-3">Quantity</label>
+											<input type="text" name="qty-3" id="qty-3" class="qty" value="1" />
+										</div>
+										<p><input type="submit" value="Add to cart" class="btn" /></p>
+									</form>
+								</div>
+								<div class="text-center">
+									<a href="trebbo.html" class="btn btn-secondary button-text"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Learn more</a>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+                    
+	
+		
+			<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" ></script>
+			<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+		</body>
+		</html>
+		<!-- Optional JavaScript -->
+		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+		<script>$(document).ready(function(){ $("h1").addClass("animated bounce"); });</script>
