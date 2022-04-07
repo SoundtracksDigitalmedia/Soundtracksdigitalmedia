@@ -7,9 +7,12 @@ html {
  }
 #empty-cart{
 background: black;
+	color:white;
 }
 #update-cart{
 background: black;
+		color:white;
+
 }
 body {
 background-color:#72369D !important;
