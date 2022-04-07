@@ -478,6 +478,8 @@ margin-right: auto;
 	width: 31%;
 	margin: 0 1%;
 	display: block;
+		list-style: none;
+
 }
 
 .product-image {
