@@ -9,7 +9,9 @@ html {
 body {
 background-color:#72369D !important;
 }
-
+#Water{
+margin-left: 10px;	
+}
 #pic1 {
 width: 100px;
 height: 100px;	
