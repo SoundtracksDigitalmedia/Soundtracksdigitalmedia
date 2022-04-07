@@ -5,10 +5,10 @@
 html {
 	box-sizing: border-box;
  }
-empty-cart{
+#empty-cart{
 background: black;
 }
-update-cart{
+#update-cart{
 background: black;
 }
 body {
