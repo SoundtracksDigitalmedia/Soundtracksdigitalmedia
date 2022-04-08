@@ -602,6 +602,7 @@ body#checkout-page #site-info {
 	width: 33.3%;
 	border: 1px solid #ddd;
 	text-transform: uppercase;
+	color: #fff;
 }
 
 .shopping-cart td {
