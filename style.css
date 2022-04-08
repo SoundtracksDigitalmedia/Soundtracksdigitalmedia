@@ -614,6 +614,7 @@ body#checkout-page #site-info {
 .shopping-cart tr:nth-child(even) {
 	background: none;
 }
+
 li {
     list-style-type: none;
 }
